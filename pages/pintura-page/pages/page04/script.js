@@ -78,7 +78,7 @@ function downloadPDF() {
   },3000); // wait for images to load inside iframe
   window.focus();
   }
-  const item = document.querySelector(".paint-area");
+  const item = document.getElementByClassName(".paint-area");
   item.printMe()
   
   /*
